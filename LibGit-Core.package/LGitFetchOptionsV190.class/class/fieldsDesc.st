@@ -8,7 +8,7 @@ fieldsDesc
 		"
 		 * Callbacks to use for this fetch operation
 		 "
-		LGitRemoteCallbacksV190 callbacks;
+		LGitRemoteCallbacks callbacks;
 
 		"
 		 * Whether to perform a prune after the fetch
@@ -19,7 +19,7 @@ fieldsDesc
 		 * Whether to write the results to FETCH_HEAD. Defaults to
 		 * on. Leave this default in order to behave like git.
 		 "
-		int update_fetchhead;
+		uint update_fetchhead;
 
 		"
 		 * Determines how to behave regarding tags on the remote, such
